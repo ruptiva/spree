@@ -3,8 +3,8 @@
   <% cache [common_product_cache_keys, product] do %>
     <%= plp_and_carousel_image(product, image_class) %>
     <div>
-      <div class="product-component-name" title="<%= product.name %>">
-        <%= product.name %>
+      <div class="product-component-name test-name" title="<%= product.name %>">
+        <%= "test" %>
       </div>
       <div class="product-component-price"><%= display_price(product) %></div>
     </div>
